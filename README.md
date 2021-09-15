@@ -3,27 +3,27 @@ My [rustlings](https://github.com/rust-lang/rustlings) solutions for version 4.5
 
 
 ## Solved Problems 
-- [] clippy
+- [ ] clippy
 - [x] collectinos
-- [] conversions
+- [ ] conversions
 - [x] enums
 - [x] error_handling
 - [x] functions
 - [x] generics
 - [x] if
-- [] macros
+- [ ] macros
 - [x] modules
 - [x] move_semantics
 - [x] option
 - [x] primitive_types
-- [] standard_library
+- [ ] standard_library
 - [x] strings
 - [x] structs
-- [] tests
-- [] threads
-- [] traits
+- [ ] tests
+- [ ] threads
+- [ ] traits
 - [x] variables
 - [x] quiz1
 - [x] quiz2
-- [] quiz3
-- [] quiz4
+- [ ] quiz3
+- [ ] quiz4
