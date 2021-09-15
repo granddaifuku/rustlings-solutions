@@ -1,6 +1,9 @@
 ## Rustlings Solutions
-My [rustlings](https://github.com/rust-lang/rustlings) solutions for version 4.5.0.
+My [rustlings](https://github.com/rust-lang/rustlings) solutions for tag 4.5.0.
+See `exercises`directory.
 
+## Checking
+- run `rustlings watch`
 
 ## Solved Problems 
 - [ ] clippy
@@ -16,7 +19,7 @@ My [rustlings](https://github.com/rust-lang/rustlings) solutions for version 4.5
 - [x] move_semantics
 - [x] option
 - [x] primitive_types
-- [ ] standard_library
+- [ ] standard_library_types
 - [x] strings
 - [x] structs
 - [ ] tests
