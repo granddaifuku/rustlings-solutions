@@ -24,7 +24,7 @@ See `exercises`directory.
 - [x] structs
 - [ ] tests
 - [ ] threads
-- [ ] traits
+- [x] traits
 - [x] variables
 - [x] quiz1
 - [x] quiz2
