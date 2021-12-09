@@ -22,7 +22,7 @@ See `exercises`directory.
 - [ ] standard_library_types
 - [x] strings
 - [x] structs
-- [ ] tests
+- [x] tests
 - [ ] threads
 - [x] traits
 - [x] variables
