@@ -28,5 +28,5 @@ See `exercises`directory.
 - [x] variables
 - [x] quiz1
 - [x] quiz2
-- [ ] quiz3
+- [x] quiz3
 - [ ] quiz4
