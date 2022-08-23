@@ -1,6 +1,6 @@
 ## Rustlings Solutions
 My [rustlings](https://github.com/rust-lang/rustlings) solutions for tag 4.5.0.
-See `exercises`directory.
+This was forked from [rustlings](https://github.com/rust-lang/rustlings).
 
 ## Checking
 - run `rustlings watch`
