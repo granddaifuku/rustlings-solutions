@@ -19,7 +19,7 @@ This was forked from [rustlings](https://github.com/rust-lang/rustlings).
 - [x] move_semantics
 - [x] option
 - [x] primitive_types
-- [ ] standard_library_types
+- [x] standard_library_types
 - [x] strings
 - [x] structs
 - [x] tests
