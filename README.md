@@ -23,7 +23,7 @@ This was forked from [rustlings](https://github.com/rust-lang/rustlings).
 - [x] strings
 - [x] structs
 - [x] tests
-- [ ] threads
+- [x] threads
 - [x] traits
 - [x] variables
 - [x] quiz1
