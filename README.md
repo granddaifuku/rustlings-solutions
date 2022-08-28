@@ -29,4 +29,4 @@ This was forked from [rustlings](https://github.com/rust-lang/rustlings).
 - [x] quiz1
 - [x] quiz2
 - [x] quiz3
-- [ ] quiz4
+- [x] quiz4
