@@ -6,7 +6,7 @@ This was forked from [rustlings](https://github.com/rust-lang/rustlings).
 - run `rustlings watch`
 
 ## Solved Problems 
-- [ ] clippy
+- [x] clippy
 - [x] collectinos
 - [ ] conversions
 - [x] enums
