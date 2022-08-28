@@ -14,7 +14,7 @@ This was forked from [rustlings](https://github.com/rust-lang/rustlings).
 - [x] functions
 - [x] generics
 - [x] if
-- [ ] macros
+- [x] macros
 - [x] modules
 - [x] move_semantics
 - [x] option
