@@ -8,7 +8,7 @@ This was forked from [rustlings](https://github.com/rust-lang/rustlings).
 ## Solved Problems 
 - [x] clippy
 - [x] collectinos
-- [ ] conversions
+- [x] conversions
 - [x] enums
 - [x] error_handling
 - [x] functions

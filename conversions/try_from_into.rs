@@ -12,8 +12,6 @@ struct Color {
     blue: u8,
 }
 
-// I AM NOT DONE
-
 // Your task is to complete this implementation
 // and return an Ok result of inner type Color.
 // You need to create an implementation for a tuple of three integers,
@@ -26,19 +24,61 @@ struct Color {
 // Tuple implementation
 impl TryFrom<(i16, i16, i16)> for Color {
     type Error = Box<dyn error::Error>;
-    fn try_from(tuple: (i16, i16, i16)) -> Result<Self, Self::Error> {}
+    fn try_from(tuple: (i16, i16, i16)) -> Result<Self, Self::Error> {
+        let (r, g, b) = tuple;
+        match tuple {
+            (0..=255, 0..=255, 0..=255) => Ok(Color {
+                red: r as u8,
+                green: g as u8,
+                blue: b as u8,
+            }),
+            _ => Err("Invalid Value".into()),
+        }
+    }
 }
 
 // Array implementation
 impl TryFrom<[i16; 3]> for Color {
     type Error = Box<dyn error::Error>;
-    fn try_from(arr: [i16; 3]) -> Result<Self, Self::Error> {}
+    fn try_from(arr: [i16; 3]) -> Result<Self, Self::Error> {
+        let mut x: [u8; 3] = Default::default();
+        for (i, val) in arr.iter().enumerate() {
+            if *val < 0 || *val > 255 {
+                return Err("Invalid Value".into());
+            }
+            x[i] = *val as u8;
+        }
+
+        Ok(Color {
+            red: x[0],
+            green: x[1],
+            blue: x[2],
+        })
+    }
 }
 
 // Slice implementation
 impl TryFrom<&[i16]> for Color {
     type Error = Box<dyn error::Error>;
-    fn try_from(slice: &[i16]) -> Result<Self, Self::Error> {}
+    fn try_from(slice: &[i16]) -> Result<Self, Self::Error> {
+        if slice.len() != 3 {
+            return Err("Invalid slice length".into());
+        }
+
+        let mut x: [u8; 3] = Default::default();
+        for (i, val) in slice.iter().enumerate() {
+            if *val < 0 || *val > 255 {
+                return Err("Invalid Value".into());
+            }
+            x[i] = *val as u8;
+        }
+
+        Ok(Color {
+            red: x[0],
+            green: x[1],
+            blue: x[2],
+        })
+    }
 }
 
 fn main() {
